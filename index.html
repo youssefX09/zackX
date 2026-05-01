@@ -144,8 +144,13 @@
         
         .login-container h1 {
             text-align: center;
-            color: var(--primary-color);
+            background: linear-gradient(135deg, var(--accent-orange), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 30px;
+            position: relative;
+            z-index: 1;
         }
         
         .form-group {
@@ -155,27 +160,39 @@
         input {
             width: 100%;
             padding: 12px 15px;
-            border: 1px solid var(--border-color);
-            border-radius: 5px;
+            border: 1px solid var(--border-glass);
+            border-radius: 10px;
             font-size: 16px;
-            background-color: var(--card-bg);
-            color: var(--text-color);
+            background: rgba(10, 22, 40, 0.6);
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 15px var(--glow-purple);
         }
         
         .btn {
-            background-color: var(--primary-color);
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-orange));
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             padding: 12px 15px;
             width: 100%;
             font-size: 16px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+            font-weight: bold;
+            box-shadow: 0 4px 15px var(--glow-purple);
         }
         
         .btn:hover {
-            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px var(--glow-orange);
         }
         
         .header {

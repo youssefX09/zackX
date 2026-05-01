@@ -51,23 +51,16 @@
         }
         
         :root {
-            --bg-dark: #0a1628;
-            --bg-secondary: #112240;
-            --bg-card: rgba(17, 34, 64, 0.7);
-            --bg-glass: rgba(17, 34, 64, 0.5);
-            --primary-blue: #1e3a5f;
-            --accent-purple: #7b1fa2;
-            --accent-orange: #ff6f00;
-            --text-primary: #e6f1ff;
-            --text-secondary: #8892b0;
-            --border-glass: rgba(136, 146, 176, 0.1);
-            --glow-blue: rgba(30, 58, 95, 0.5);
-            --glow-purple: rgba(123, 31, 162, 0.4);
-            --glow-orange: rgba(255, 111, 0, 0.4);
-            --success-bg: rgba(76, 175, 80, 0.2);
-            --success-color: #4caf50;
-            --warning-bg: rgba(255, 152, 0, 0.2);
-            --warning-color: #ff9800;
+            --bg-color: #f0f2f5;
+            --text-color: #333;
+            --card-bg: #fff;
+            --primary-color: #2e4057;
+            --primary-hover: #1a2639;
+            --border-color: #ddd;
+            --success-bg: #e3f2e3;
+            --success-color: #2e7d32;
+            --warning-bg: #ffefc7;
+            --warning-color: #ff8f00;
             --danger-color: #f44336;
             --danger-hover: #d32f2f;
             --success-btn: #4caf50;
